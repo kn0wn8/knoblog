@@ -99,7 +99,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://known8.me/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/" data-id="cl7clfbdt00012fg3a1mc2fbf" data-title="为什么会有本博客" class="article-share-link">分享</a>
+      <a data-url="http://known8.me/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/" data-id="cl7clj08p00019dg37ize61v6" data-title="为什么会有本博客" class="article-share-link">分享</a>
       
       
       
@@ -135,14 +135,14 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h2 id="GItPage-Hexo-Dynadot域名-Netlify-CDN"><a href="#GItPage-Hexo-Dynadot域名-Netlify-CDN" class="headerlink" title="GItPage + Hexo + Dynadot域名 + Netlify CDN"></a>GItPage + Hexo + Dynadot域名 + Netlify CDN</h2><h3 id="简易的静态博客解决方案"><a href="#简易的静态博客解决方案" class="headerlink" title="### 简易的静态博客解决方案"></a>### 简易的静态博客解决方案</h3><h3 id="Part1-GitPage-Hexo-搭建页面"><a href="#Part1-GitPage-Hexo-搭建页面" class="headerlink" title="Part1: GitPage + Hexo 搭建页面"></a>Part1: GitPage + Hexo 搭建页面</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty/?spm_id_from=333.788.recommend_more_video.-1&vd_source=f3dc3a3e679a8cdb0b563bc2c1ab0eeb">快速上手视频教程</a><br>git -&gt; npm -&gt; hexo -&gt; git_repo<br>以下内容缺一不可！</p>
+        <h2 id="GItPage-Hexo-Dynadot域名-Netlify-CDN"><a href="#GItPage-Hexo-Dynadot域名-Netlify-CDN" class="headerlink" title="GItPage + Hexo + Dynadot域名 + Netlify CDN"></a>GItPage + Hexo + Dynadot域名 + Netlify CDN</h2><h3 id="简易的静态博客解决方案"><a href="#简易的静态博客解决方案" class="headerlink" title="### 简易的静态博客解决方案"></a>### 简易的静态博客解决方案</h3><h3 id="Part1-GitPage-Hexo-搭建页面"><a href="#Part1-GitPage-Hexo-搭建页面" class="headerlink" title="Part1: GitPage + Hexo 搭建页面"></a>Part1: GitPage + Hexo 搭建页面</h3><p>git -&gt; npm -&gt; hexo -&gt; git_repo<br>以下内容缺一不可！</p>
 <h4 id="配置环境"><a href="#配置环境" class="headerlink" title="配置环境"></a>配置环境</h4><p>使用Ubuntu 22.04搭建</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install npm nodejs git	<span class="comment">#nodejs version &gt;= 12.0</span></span><br><span class="line">git config --global user.email <span class="string">&quot;you@example.com&quot;</span> <span class="comment">#配置git用户</span></span><br><span class="line"></span><br><span class="line">npm npm config <span class="built_in">set</span> registry https://registry.npmmirror.com	<span class="comment">#换源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org	<span class="comment">#换回来：</span></span><br><span class="line">npm config get registry	<span class="comment">#检测源</span></span><br><span class="line"></span><br><span class="line">npm install hexo-deployer-git --save <span class="comment">#加载hexo部署模块</span></span><br><span class="line">hexo init	<span class="comment">#初始化</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d  <span class="comment"># 部署</span></span><br></pre></td></tr></table></figure>
 
 <h4 id="配置仓库"><a href="#配置仓库" class="headerlink" title="配置仓库"></a>配置仓库</h4><p>github repo 名字为 username.github.io</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vim _config.yml	<span class="comment">#修改部署方式  </span></span><br><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">repo: git_url</span><br></pre></td></tr></table></figure>
 
-<p>moreinfo：<a target="_blank" rel="noopener" href="https://blog.csdn.net/GsL9D1P04F6x2ts3C9/article/details/81024330">在ECS中部署Hexo</a></p>
+<p>moreinfo：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty/?spm_id_from=333.788.recommend_more_video.-1&vd_source=f3dc3a3e679a8cdb0b563bc2c1ab0eeb">快速上手视频教程</a> <a target="_blank" rel="noopener" href="https://blog.csdn.net/GsL9D1P04F6x2ts3C9/article/details/81024330">在ECS中部署Hexo</a></p>
 <h3 id="Part2-Dynatot域名-Netlify-CDN"><a href="#Part2-Dynatot域名-Netlify-CDN" class="headerlink" title="Part2: Dynatot域名 + Netlify CDN"></a>Part2: Dynatot域名 + Netlify CDN</h3><p><a href="dynatot.com/zh/">dynatot</a>  域名有中文界面、支持支付宝付款、免实名<br><a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a> CDN	免费版每月前三个网站共100个G流量，很划算，降低网络波动，对图片资源的提速效果明显</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;你买的域名“ &gt;&gt; blog/source/CNAME</span></span><br><span class="line"><span class="string">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d  </span></span><br></pre></td></tr></table></figure>
 <p>将Netlify配置的域名做为 Dynatot的DNS CNAME 解析<br>可以再添加一个 www.你买的域名.xxx CNAME 到Netlify会自动跳转到主域名</p>
@@ -152,7 +152,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://known8.me/2022/08/28/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%9E%E7%94%9F/" data-id="cl7clfbdw00022fg3799cb8s6" data-title="本博客的诞生" class="article-share-link">分享</a>
+      <a data-url="http://known8.me/2022/08/28/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%9E%E7%94%9F/" data-id="cl7clj08s00029dg353sw9nz8" data-title="本博客的诞生" class="article-share-link">分享</a>
       
       
       
@@ -205,7 +205,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://known8.me/2022/08/28/hello-world/" data-id="cl7clfbdn00002fg3fbdjcfip" data-title="Hello World" class="article-share-link">分享</a>
+      <a data-url="http://known8.me/2022/08/28/hello-world/" data-id="cl7clj08k00009dg38g191tkz" data-title="Hello World" class="article-share-link">分享</a>
       
       
       
