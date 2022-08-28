@@ -19,15 +19,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>如何使用hexo和next</title>
-    <url>/2022/08/28/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%92%8Cnext/</url>
-    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#new</span></span><br><span class="line">hexo new <span class="string">&quot;xxx xxx&quot;</span></span><br><span class="line">hexo new -p -r</span><br><span class="line">hexo new page --path about/me <span class="comment"># source/_posts/about/me</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#generate</span></span><br><span class="line">: &lt;&lt; <span class="string">EOF</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>为什么会有本博客</title>
     <url>/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h2 id="为什么会有本博客？"><a href="#为什么会有本博客？" class="headerlink" title="为什么会有本博客？"></a>为什么会有本博客？</h2><p>因为脑里的知识太多，到了需要输出的时候了</p>
@@ -37,6 +28,15 @@
       </categories>
       <tags>
         <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>如何使用hexo和next</title>
+    <url>/2022/08/28/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%92%8Cnext/</url>
+    <content><![CDATA[<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">#new</span></span><br><span class="line">hexo new <span class="string">&quot;xxx xxx&quot;</span></span><br><span class="line">hexo new -p -r</span><br><span class="line">hexo new page --path about/me <span class="comment"># source/_posts/about/me</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#generate</span></span><br><span class="line">: &lt;&lt; <span class="string">EOF</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
