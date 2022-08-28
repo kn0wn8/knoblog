@@ -197,6 +197,65 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://known8.me/2022/08/28/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%92%8Cnext/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kn0wn8">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Kn0wn8's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/08/28/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hexo%E5%92%8Cnext/" class="post-title-link" itemprop="url">如何使用hexo和next</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-08-28 17:00:49 / 修改时间：21:40:43" itemprop="dateCreated datePublished" datetime="2022-08-28T17:00:49+08:00">2022-08-28</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#new</span></span><br><span class="line">hexo new <span class="string">&quot;xxx xxx&quot;</span></span><br><span class="line">hexo new -p -r</span><br><span class="line">hexo new page --path about/me <span class="comment"># source/_posts/about/me</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#generate</span></span><br><span class="line">: &lt;&lt; <span class="string">EOF</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">xxx</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://known8.me/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -290,7 +349,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-08-28 01:03:16 / 修改时间：10:14:24" itemprop="dateCreated datePublished" datetime="2022-08-28T01:03:16+08:00">2022-08-28</time>
+              <time title="创建时间：2022-08-28 01:03:16 / 修改时间：17:11:42" itemprop="dateCreated datePublished" datetime="2022-08-28T01:03:16+08:00">2022-08-28</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -298,7 +357,7 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a>
+                  <a href="/categories/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a>
                 </span>
             </span>
 
@@ -324,7 +383,7 @@
 <h3 id="Part2-Dynatot域名-Netlify-CDN"><a href="#Part2-Dynatot域名-Netlify-CDN" class="headerlink" title="Part2: Dynatot域名 + Netlify CDN"></a>Part2: Dynatot域名 + Netlify CDN</h3><p><a href="dynatot.com/zh/">dynatot</a>  域名有中文界面、支持支付宝付款、免实名<br><a target="_blank" rel="noopener" href="https://www.netlify.com/">Netlify</a> CDN	免费版每月前三个网站共100个G流量，很划算，降低网络波动，对图片资源的提速效果明显</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;你买的域名“ &gt;&gt; blog/source/CNAME</span></span><br><span class="line"><span class="string">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d  </span></span><br></pre></td></tr></table></figure>
 <p>将Netlify配置的域名做为 Dynatot的DNS CNAME 解析<br>可以再添加一个 www.你买的域名.xxx CNAME 到Netlify会自动跳转到主域名</p>
-<h3 id="Part3：美化主题"><a href="#Part3：美化主题" class="headerlink" title="Part3：美化主题"></a>Part3：美化主题</h3><p>未完待续</p>
+<h3 id="Part3：美化主题"><a href="#Part3：美化主题" class="headerlink" title="Part3：美化主题"></a>Part3：美化主题</h3><p>部署<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">hexo-theme-next</a><br>修改 _config.yml</p>
 <p><strong>温馨提示：_config.yml和source文件夹要养成经常备份的好习惯（设个周期任务也很不错）</strong></p>
 
       
@@ -477,7 +536,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
