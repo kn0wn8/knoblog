@@ -68,7 +68,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;">&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#102;&#97;&#107;&#101;&#x40;&#101;&#x78;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#102;&#97;&#107;&#101;&#x40;&#101;&#x78;&#97;&#109;&#x70;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
 <p><em><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -150,9 +150,8 @@
 <blockquote>
 <p><strong>Note</strong>: In order to minimize conflicts there mustn’t be spaces at the beginning and end of a single-line formula, and the ending <code>$</code> character musn’t be followed by a digit. If you need to you can escape the <code>$</code> character with a backslash.</p>
 </blockquote>
-<p>####AsciiMath##a<br>&amp;&amp; &amp;&amp;<br>&amp; &amp;</p>
-<p>####mermaid</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">  Install --&gt; Tutorial[Read the tutorial]</span><br><span class="line">  Tutorial --&gt; Star</span><br><span class="line">  Tutorial --&gt; Share</span><br><span class="line">  Tutorial -.-&gt; mermaid[Realize how cool mermaid is]</span><br></pre></td></tr></table></figure>
+<h4 id="AsciiMath-a"><a href="#AsciiMath-a" class="headerlink" title="AsciiMath##a"></a>AsciiMath##a</h4><p>&amp;</p>
+<h4 id="mermaid"><a href="#mermaid" class="headerlink" title="mermaid"></a>mermaid</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">  Install --&gt; Tutorial[Read the tutorial]</span><br><span class="line">  Tutorial --&gt; Star</span><br><span class="line">  Tutorial --&gt; Share</span><br><span class="line">  Tutorial -.-&gt; mermaid[Realize how cool mermaid is]</span><br></pre></td></tr></table></figure>
 
 <h4 id="lt-markdown-gt-Tag"><a href="#lt-markdown-gt-Tag" class="headerlink" title="&lt;markdown&gt; Tag"></a><code>&lt;markdown&gt;</code> Tag</h4><p>Notable supports a custom <code>&lt;markdown&gt;</code> HTML tag. Anything written inside it will be rendered as Markdown. This is particularly useful when you have to write raw HTML but you still want to write Markdown inside it, like when using the <code>&lt;details&gt;</code> tag or when writing tables with multi-line content inside cells.</p>
 <details>
@@ -212,11 +211,20 @@
 <li><kbd>F5</kbd> - Reload the window.</li>
 </ul>
 <h3 id="Attachment"><a href="#Attachment" class="headerlink" title="Attachment"></a>Attachment</h3><h4 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">Icon</span>](<span class="link">@attachment/icon_small.png</span>)</span><br><span class="line">[<span class="string">Icon</span>](<span class="link">@attachment/icon_small.png</span>)</span><br><span class="line">[](<span class="link">@attachment/icon_small.png</span>)</span><br></pre></td></tr></table></figure>
-<p><img src="https://pic.imgdb.cn/item/630cc98516f2c2beb1632eb6.png"></p>
-<h3 id="Notes-1"><a href="#Notes-1" class="headerlink" title="Notes"></a>Notes</h3><h4 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">Shortcuts</span>](<span class="link">@note/07 - Shortcuts.md</span>)</span><br><span class="line">[](<span class="link">@note/07 - Shortcuts.md</span>)</span><br></pre></td></tr></table></figure>
+<img src="https://pic.imgdb.cn/item/630cc98516f2c2beb1632eb6.png"  align="left">
+### Notes
+#### Syntax
 
-<h3 id="Tags-1"><a href="#Tags-1" class="headerlink" title="Tags"></a>Tags</h3><p>@tag</p>
-<h3 id="Searches"><a href="#Searches" class="headerlink" title="Searches"></a>Searches</h3><p>@search</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">Shortcuts</span>](<span class="link">@note/07 - Shortcuts.md</span>)</span><br><span class="line">[](<span class="link">@note/07 - Shortcuts.md</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="Tags-1"><a href="#Tags-1" class="headerlink" title="Tags"></a>Tags</h3><pre>@tag</pre>
+
+<h3 id="Searches"><a href="#Searches" class="headerlink" title="Searches"></a>Searches</h3><pre>@search</pre>
+
+
+
+
+
 ]]></content>
       <categories>
         <category>Others</category>
