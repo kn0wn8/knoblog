@@ -68,7 +68,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#x6b;&#x65;&#64;&#x65;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x66;&#x61;&#x6b;&#x65;&#64;&#x65;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;">&#x66;&#97;&#x6b;&#101;&#64;&#101;&#x78;&#x61;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
 <p><em><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -141,12 +141,12 @@
     <title>如何使用Notable记笔记</title>
     <url>/2022/08/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Notable%E8%AE%B0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h2 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h2><h3 id="The-Data-Directory"><a href="#The-Data-Directory" class="headerlink" title="The Data Directory"></a>The Data Directory</h3><p>&#x2F;attachment<br>&#x2F;notes</p>
-<h3 id="The-Sidebar"><a href="#The-Sidebar" class="headerlink" title="The Sidebar"></a>The Sidebar</h3><p>** Notebooks: **This section contains all notes tagged with the special Notebooks&#x2F; * tag.<br>**Templates:**Temp;ates&#x2F;*<br>| Untagged | All Notes | Favorites |<br>| Tags   | Trash| |</p>
+<h3 id="The-Sidebar"><a href="#The-Sidebar" class="headerlink" title="The Sidebar"></a>The Sidebar</h3><p><strong>Notebooks:</strong> This section contains all notes tagged with the special Notebooks&#x2F; * tag.<br><strong>Templates:</strong> Temp;ates&#x2F;*<br>| Untagged | All Notes | Favorites |<br>| Tags   | Trash| |</p>
 <p>Tags 嵌套可在 Notebooks,Tags 和 Templates 中支持</p>
 <h3 id="The-Mainbar"><a href="#The-Mainbar" class="headerlink" title="The Mainbar"></a>The Mainbar</h3><p>使用VS Code Monaco Editor<br>支持shortcuts</p>
 <p>you can write emojis (<code>:joy:</code> -&gt; :joy:), <del>strikethrough</del> text etc. in a familiar fashion, additionally you can also write subscripts<del>example</del>, superscripts^example^ and footnotes[^1].</p>
 <p>[^1]: This is a footnote, you don’t need to manually write it at the bottom of the document.</p>
-<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><h4 id="KaTex"><a href="#KaTex" class="headerlink" title="KaTex"></a>KaTex</h4><p>**Syntax:**Github-Flavor Markdown<br>**Syntax Plugins:**Katex,AsciiMath,mermaid</p>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><h4 id="KaTex"><a href="#KaTex" class="headerlink" title="KaTex"></a>KaTex</h4><p><strong>Syntax:</strong> Github-Flavor Markdown<br><strong>Syntax Plugins:</strong> Katex,AsciiMath,mermaid</p>
 <blockquote>
 <p><strong>Note</strong>: In order to minimize conflicts there mustn’t be spaces at the beginning and end of a single-line formula, and the ending <code>$</code> character musn’t be followed by a digit. If you need to you can escape the <code>$</code> character with a backslash.</p>
 </blockquote>
