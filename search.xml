@@ -8,7 +8,7 @@
 <li><a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></li>
 <li><a href="https://pan.baidu.com/download#linux">https://pan.baidu.com/download#linux</a><br></li>
 </ul>
-<h3 id="软件包源"><a href="#软件包源" class="headerlink" title="软件包源"></a>软件包源</h3><p>brew源：<a href="https://www.jianshu.com/p/9592826c254b">https://www.jianshu.com/p/9592826c254b</a><br>npm源：</p>
+<h3 id="软件包源"><a href="#软件包源" class="headerlink" title="软件包源"></a>软件包源</h3><p>brew 源：<a href="https://www.jianshu.com/p/9592826c254b">https://www.jianshu.com/p/9592826c254b</a><br>npm源：</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line">npm config get registry</span><br></pre></td></tr></table></figure>
 
 <h3 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h3><p>代码速查：<a href="https://github.com/cheat/cheat">https://github.com/cheat/cheat</a><br>视频处理：<a href="https://cloud.tencent.com/developer/article/1773248">ffempg</a><br>图片处理：imagemagick<br>终端：terminator<br>远程桌面：Remmina<br>二进制：GHex<br>FTP：FileZilla<br>虚拟机：VirtualBox</p>
@@ -68,7 +68,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;">&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;">&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;</a></p>
 <p><em><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
