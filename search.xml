@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux常用软件集合</title>
+    <url>/2022/08/29/Linux%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<p>###常用软件<br>视频编辑:<a href="https://zhuanlan.zhihu.com/p/48413946">https://zhuanlan.zhihu.com/p/48413946</a><br>照片编辑:<a href="https://linux.cn/article-13761-1.html">https://linux.cn/article-13761-1.html</a><br>音频编辑:<a href="https://linux.cn/article-13771-1.html">https://linux.cn/article-13771-1.html</a><br>画画：<a href="https://krita.org/zh/">https://krita.org/zh/</a><br>办公: wps,onlyoffice,libreoffice<br>视频播放器:VLC<br>截图:Flameshot<br>壁纸：<a href="https://snapcraft.io/bing-wall">bing-wall</a><br>笔记：notable<br>下载:motrix<br>远程协作:<a href="http://www.hellodesk.cn/pricing.html">ToDesk</a><br>云盘:</p>
+<ul>
+<li><a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></li>
+<li><a href="https://pan.baidu.com/download#linux">https://pan.baidu.com/download#linux</a><br></li>
+</ul>
+<p>###软件包源<br>brew源:<a href="https://www.jianshu.com/p/9592826c254b">https://www.jianshu.com/p/9592826c254b</a><br>npm源:</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmmirror.com</span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org</span><br><span class="line">npm config get registry</span><br></pre></td></tr></table></figure>
+<br>
+###开发工具
+代码速查:<https://github.com/cheat/cheat>
+视频处理：[ffempg](https://cloud.tencent.com/developer/article/1773248)
+图片处理:imagemagick
+终端:terminator
+远程桌面:Remmina
+二进制:GHex
+ftp:FileZilla
+虚拟机：VirtualBox
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2022/08/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -48,7 +77,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#107;&#x65;&#x40;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;">&#x66;&#x61;&#107;&#x65;&#x40;&#101;&#120;&#x61;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#102;&#97;&#x6b;&#101;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#109;">&#102;&#97;&#x6b;&#101;&#x40;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#x65;&#46;&#99;&#x6f;&#109;</a></p>
 <p><em><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -106,6 +135,33 @@
       </tags>
   </entry>
   <entry>
+    <title>为什么会有本博客</title>
+    <url>/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="为什么会有本博客？"><a href="#为什么会有本博客？" class="headerlink" title="为什么会有本博客？"></a>为什么会有本博客？</h2><p>因为脑里的知识太多，到了需要输出的时候了</p>
+]]></content>
+      <categories>
+        <category>Thoughts</category>
+      </categories>
+      <tags>
+        <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有意思的站点集合</title>
+    <url>/2022/08/29/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AB%99%E7%82%B9%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<p>###答疑解惑<br><a href="https://blog.csdn.net/mocas_wang/article/details/104009594">如何给wps安装字体</a></p>
+<p>###高效率办公<br><a href="https://github.com/Heroic-Studio/Google-Mirrors">Google镜像列表</a></p>
+<p>###开发<br><a href="https://hub.nuaa.cf/">Github镜像</a><br><a href="https://goproxy.cn/">go代理</a><br><a href="https://www.jianshu.com/p/c35091dcba84">图床</a><br>###有意思的博客<br><a href="https://www.ddosi.org/">雨苁ℒ</a></p>
+<p>###知识库<br><a href="https://www.icourse163.org/">MOOC</a><br><a href="https://github.com/PeiQi0/PeiQi-WiKi-Book">PeiQi</a></p>
+]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本博客的诞生</title>
     <url>/2022/08/28/%E6%9C%AC%E5%8D%9A%E5%AE%A2%E7%9A%84%E8%AF%9E%E7%94%9F/</url>
     <content><![CDATA[<h2 id="GItPage-Hexo-Dynadot域名-Netlify-CDN"><a href="#GItPage-Hexo-Dynadot域名-Netlify-CDN" class="headerlink" title="GItPage + Hexo + Dynadot域名 + Netlify CDN"></a>GItPage + Hexo + Dynadot域名 + Netlify CDN</h2><h3 id="简易的静态博客解决方案"><a href="#简易的静态博客解决方案" class="headerlink" title="### 简易的静态博客解决方案"></a>### 简易的静态博客解决方案</h3><h3 id="Part1-GitPage-Hexo-搭建页面"><a href="#Part1-GitPage-Hexo-搭建页面" class="headerlink" title="Part1: GitPage + Hexo 搭建页面"></a>Part1: GitPage + Hexo 搭建页面</h3><p>git -&gt; npm -&gt; hexo -&gt; git_repo<br>以下内容缺一不可！</p>
@@ -128,18 +184,6 @@
       <tags>
         <tag>建站</tag>
         <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么会有本博客</title>
-    <url>/2022/08/28/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BC%9A%E6%9C%89%E6%9C%AC%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="为什么会有本博客？"><a href="#为什么会有本博客？" class="headerlink" title="为什么会有本博客？"></a>为什么会有本博客？</h2><p>因为脑里的知识太多，到了需要输出的时候了</p>
-]]></content>
-      <categories>
-        <category>Thoughts</category>
-      </categories>
-      <tags>
-        <tag>闲聊</tag>
       </tags>
   </entry>
 </search>
