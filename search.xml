@@ -68,7 +68,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;">&#x66;&#x61;&#107;&#101;&#x40;&#x65;&#120;&#97;&#x6d;&#112;&#108;&#101;&#46;&#99;&#111;&#x6d;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#x61;&#x6b;&#x65;&#64;&#x65;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x66;&#x61;&#x6b;&#x65;&#64;&#x65;&#x78;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a></p>
 <p><em><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.com/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -138,6 +138,94 @@
       </tags>
   </entry>
   <entry>
+    <title>如何使用Notable记笔记</title>
+    <url>/2022/08/29/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Notable%E8%AE%B0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h2 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h2><h3 id="The-Data-Directory"><a href="#The-Data-Directory" class="headerlink" title="The Data Directory"></a>The Data Directory</h3><p>&#x2F;attachment<br>&#x2F;notes</p>
+<h3 id="The-Sidebar"><a href="#The-Sidebar" class="headerlink" title="The Sidebar"></a>The Sidebar</h3><p>** Notebooks: **This section contains all notes tagged with the special Notebooks&#x2F; * tag.<br>**Templates:**Temp;ates&#x2F;*<br>| Untagged | All Notes | Favorites |<br>| Tags   | Trash| |</p>
+<p>Tags 嵌套可在 Notebooks,Tags 和 Templates 中支持</p>
+<h3 id="The-Mainbar"><a href="#The-Mainbar" class="headerlink" title="The Mainbar"></a>The Mainbar</h3><p>使用VS Code Monaco Editor<br>支持shortcuts</p>
+<p>you can write emojis (<code>:joy:</code> -&gt; :joy:), <del>strikethrough</del> text etc. in a familiar fashion, additionally you can also write subscripts<del>example</del>, superscripts^example^ and footnotes[^1].</p>
+<p>[^1]: This is a footnote, you don’t need to manually write it at the bottom of the document.</p>
+<h3 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h3><h4 id="KaTex"><a href="#KaTex" class="headerlink" title="KaTex"></a>KaTex</h4><p>**Syntax:**Github-Flavor Markdown<br>**Syntax Plugins:**Katex,AsciiMath,mermaid</p>
+<blockquote>
+<p><strong>Note</strong>: In order to minimize conflicts there mustn’t be spaces at the beginning and end of a single-line formula, and the ending <code>$</code> character musn’t be followed by a digit. If you need to you can escape the <code>$</code> character with a backslash.</p>
+</blockquote>
+<p>####AsciiMath##a<br>&amp;&amp; &amp;&amp;<br>&amp; &amp;</p>
+<p>####mermaid</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">  Install --&gt; Tutorial[Read the tutorial]</span><br><span class="line">  Tutorial --&gt; Star</span><br><span class="line">  Tutorial --&gt; Share</span><br><span class="line">  Tutorial -.-&gt; mermaid[Realize how cool mermaid is]</span><br></pre></td></tr></table></figure>
+
+<h4 id="lt-markdown-gt-Tag"><a href="#lt-markdown-gt-Tag" class="headerlink" title="&lt;markdown&gt; Tag"></a><code>&lt;markdown&gt;</code> Tag</h4><p>Notable supports a custom <code>&lt;markdown&gt;</code> HTML tag. Anything written inside it will be rendered as Markdown. This is particularly useful when you have to write raw HTML but you still want to write Markdown inside it, like when using the <code>&lt;details&gt;</code> tag or when writing tables with multi-line content inside cells.</p>
+<details>
+  <summary>Click to show more...</summary>
+  <markdown>
+- Embedded
+  - _Markdown_
+  </markdown>
+</details>
+
+<h3 id="Tags"><a href="#Tags" class="headerlink" title="Tags"></a>Tags</h3><h4 id="Collapse-x2F-Expand"><a href="#Collapse-x2F-Expand" class="headerlink" title="Collapse&#x2F;Expand"></a>Collapse&#x2F;Expand</h4><p>Tags with children can be collapsed&#x2F;expanded, just right-click them and select the option or double-click them.</p>
+<h2 id="Intermediate"><a href="#Intermediate" class="headerlink" title="Intermediate"></a>Intermediate</h2><h3 id="shortcuts"><a href="#shortcuts" class="headerlink" title="shortcuts"></a>shortcuts</h3><h2 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h2><ul>
+<li><kbd>Cmd+N</kbd> - New.</li>
+<li><kbd>Cmd+Alt+Shift+N</kbd> - New from Template.</li>
+<li><kbd>Cmd+Shift+N</kbd> - Duplicate.</li>
+<li><kbd>Cmd+O</kbd> - Quick open.</li>
+<li><kbd>Cmd+P</kbd> - Quick open.</li>
+<li><kbd>Cmd+Alt+R</kbd> - Reveal in Finder&#x2F;Folder.</li>
+<li><kbd>Cmd+E</kbd> - Toggle editing.</li>
+<li><kbd>Cmd+D</kbd> - Toggle favorite.</li>
+<li><kbd>Cmd+Shift+D</kbd> - Toggle pin.</li>
+</ul>
+<h2 id="Editor"><a href="#Editor" class="headerlink" title="Editor"></a>Editor</h2><ul>
+<li><kbd>Cmd+Z</kbd> - Undo.</li>
+<li><kbd>Cmd+Shift+Z</kbd> - Redo.</li>
+<li><kbd>Cmd+Enter</kbd> - Insert a new line below the current one.</li>
+<li><kbd>Cmd+Shift+Enter</kbd> - Insert a new line above the current one.</li>
+<li><kbd>Cmd+D</kbd> - Select the next match.</li>
+<li><kbd>Cmd+Shift+L</kbd> - Select all matches.</li>
+<li><kbd>Alt-Z</kbd> - Toggle word wrapping.</li>
+<li><kbd>Alt-M</kbd> - Toggle the minimap.</li>
+<li><kbd>Alt-L</kbd> - Toggle line numbers.</li>
+<li><kbd>Alt+Enter</kbd> - Toggle a task.</li>
+<li><kbd>Alt+D</kbd> - Toggle a task’s check mark.</li>
+</ul>
+<h2 id="Multi-Editor"><a href="#Multi-Editor" class="headerlink" title="Multi-Editor"></a>Multi-Editor</h2><ul>
+<li><kbd>Cmd+Alt+A</kbd> - Select all notes.</li>
+<li><kbd>Cmd+Alt+I</kbd> - Invert notes selection.</li>
+<li><kbd>Cmd+Alt+C</kbd> - Clear notes selection.</li>
+</ul>
+<h2 id="Navigation"><a href="#Navigation" class="headerlink" title="Navigation"></a>Navigation</h2><ul>
+<li><kbd>Ctrl+Alt+Shift+Tab</kbd> - Previous tag.</li>
+<li><kbd>Ctrl+Alt+PageDown</kbd> - Next tag.</li>
+<li><kbd>Ctrl+Shift+Tab</kbd> - Previous note.</li>
+<li><kbd>Ctrl+Tab</kbd> - Next note.</li>
+<li><kbd>Ctrl+PageUp</kbd> - Previous note.</li>
+<li><kbd>Ctrl+PageDown</kbd> - Next note.</li>
+<li><kbd>Spacebar</kbd> - Scroll note down, when no input is focused.</li>
+<li><kbd>Shift+Spacebar</kbd> - Scroll note up, when no input is focused.</li>
+</ul>
+<h2 id="Others"><a href="#Others" class="headerlink" title="Others"></a>Others</h2><ul>
+<li><kbd>Cmd+F</kbd> - Focus to search bar.</li>
+<li><kbd>Cmd+Alt+F</kbd> - Toggle focus mode.</li>
+<li><kbd>Cmd+Alt+S</kbd> - Toggle split view mode.</li>
+<li><kbd>Cmd+Alt+Z</kbd> - Toggle zen mode.</li>
+<li><kbd>Cmd+Shift+O</kbd> - Open Data Directory.</li>
+<li><kbd>F5</kbd> - Reload the window.</li>
+</ul>
+<h3 id="Attachment"><a href="#Attachment" class="headerlink" title="Attachment"></a>Attachment</h3><h4 id="Syntax"><a href="#Syntax" class="headerlink" title="Syntax"></a>Syntax</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">Icon</span>](<span class="link">@attachment/icon_small.png</span>)</span><br><span class="line">[<span class="string">Icon</span>](<span class="link">@attachment/icon_small.png</span>)</span><br><span class="line">[](<span class="link">@attachment/icon_small.png</span>)</span><br></pre></td></tr></table></figure>
+<p><img src="https://pic.imgdb.cn/item/630cc98516f2c2beb1632eb6.png"></p>
+<h3 id="Notes-1"><a href="#Notes-1" class="headerlink" title="Notes"></a>Notes</h3><h4 id="Syntax-1"><a href="#Syntax-1" class="headerlink" title="Syntax"></a>Syntax</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[<span class="string">Shortcuts</span>](<span class="link">@note/07 - Shortcuts.md</span>)</span><br><span class="line">[](<span class="link">@note/07 - Shortcuts.md</span>)</span><br></pre></td></tr></table></figure>
+
+<h3 id="Tags-1"><a href="#Tags-1" class="headerlink" title="Tags"></a>Tags</h3><p>@tag</p>
+<h3 id="Searches"><a href="#Searches" class="headerlink" title="Searches"></a>Searches</h3><p>@search</p>
+]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>有意思的站点集合</title>
     <url>/2022/08/29/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AB%99%E7%82%B9%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<h3 id="答疑解惑"><a href="#答疑解惑" class="headerlink" title="答疑解惑"></a>答疑解惑</h3><p><a href="https://blog.csdn.net/mocas_wang/article/details/104009594">如何给wps安装字体</a></p>
@@ -171,11 +259,11 @@
 <p><strong>温馨提示：_config.yml和source文件夹要养成经常备份的好习惯（设个周期任务也很不错）</strong></p>
 ]]></content>
       <categories>
-        <category>linux</category>
+        <category>Linux</category>
       </categories>
       <tags>
+        <tag>Linux</tag>
         <tag>建站</tag>
-        <tag>linux</tag>
       </tags>
   </entry>
 </search>
