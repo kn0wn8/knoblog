@@ -21,24 +21,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/08/28/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>markdown 教程</title>
     <url>/2022/08/28/markdown%E6%95%99%E7%A8%8B/</url>
     <content><![CDATA[<img src="https://pic.imgdb.cn/item/630c34cf16f2c2beb1f3e8ef.png" height=600 width=800 alt="markdown logo" title="markdown logo">
@@ -68,7 +50,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#102;&#97;&#x6b;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#46;&#99;&#x6f;&#x6d;">&#102;&#97;&#x6b;&#x65;&#64;&#101;&#120;&#97;&#x6d;&#112;&#108;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#x66;&#97;&#107;&#101;&#64;&#101;&#120;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#99;&#111;&#x6d;">&#x66;&#97;&#107;&#101;&#64;&#101;&#120;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#99;&#111;&#x6d;</a></p>
 <p><em><a href="https://www.known8.me/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.me/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -124,6 +106,24 @@
       <tags>
         <tag>建站</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/08/28/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>为什么会有本博客</title>
@@ -295,7 +295,7 @@
     <content><![CDATA[<h2 id="今天开始学类！"><a href="#今天开始学类！" class="headerlink" title="今天开始学类！"></a>今天开始学类！</h2><img src="https://pic.imgdb.cn/item/6315d21616f2c2beb183bbcd.png" width="800" height="1000" >
 
 <p><img src="https://pic.imgdb.cn/item/6315d20816f2c2beb183ac7f.png" alt="my\_first\_class\_page"></p>
-<p><em><strong>我写的第一个C++类</strong></em></p>
+<p><em><strong>我写的第一个C++类</strong></em><br><em><strong>似乎最后少了一个分号 TZT</strong></em></p>
 ]]></content>
       <categories>
         <category>Coding</category>
