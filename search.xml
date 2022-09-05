@@ -68,7 +68,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">分隔线</span><br><span class="line"> --- </span><br></pre></td></tr></table></figure>
 <hr>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">link with title</span><br><span class="line">[markdown](https://xxx.xx &quot;title&quot;)</span><br><span class="line">link or email</span><br><span class="line">&lt;fake@example.com&gt;</span><br><span class="line"></span><br><span class="line">*link*</span><br><span class="line">**link**</span><br><span class="line">使用%20代替URL中的空格</span><br></pre></td></tr></table></figure>
-<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#102;&#x61;&#107;&#x65;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#101;&#46;&#x63;&#111;&#109;">&#102;&#x61;&#107;&#x65;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#101;&#46;&#x63;&#111;&#109;</a></p>
+<p>link with title<br><a href="https://xxx.xx/" title="title">markdown</a><br>link or email<br><a href="mailto:&#102;&#97;&#107;&#101;&#64;&#101;&#x78;&#97;&#109;&#112;&#108;&#x65;&#46;&#99;&#x6f;&#x6d;">&#102;&#97;&#107;&#101;&#64;&#101;&#x78;&#97;&#109;&#112;&#108;&#x65;&#46;&#99;&#x6f;&#x6d;</a></p>
 <p><em><a href="https://www.known8.me/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></em><br><strong><a href="https://www.known8.me/2022/08/28/markdown%E6%95%99%E7%A8%8B/">link</a></strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">代码块扩展语法</span><br><span class="line">``` language title url link text</span><br><span class="line">code snippet</span><br><span class="line">/```</span><br></pre></td></tr></table></figure>
 
@@ -135,60 +135,6 @@
       </categories>
       <tags>
         <tag>闲聊</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vim常用操作</title>
-    <url>/2022/08/30/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8VIM/</url>
-    <content><![CDATA[<img src="https://pic.imgdb.cn/item/630dac0116f2c2beb1daf463.png" alt="How to use VIM">
-
-<h2 id="1-文本编辑"><a href="#1-文本编辑" class="headerlink" title="1.文本编辑"></a>1.文本编辑</h2><h3 id="1-1-复制、剪切、黏贴、删除"><a href="#1-1-复制、剪切、黏贴、删除" class="headerlink" title="1.1 复制、剪切、黏贴、删除"></a>1.1 复制、剪切、黏贴、删除</h3><table>
-<thead>
-<tr>
-<th align="center">d</th>
-<th align="center">y</th>
-<th align="center">xpg</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">dd</td>
-<td align="center">yy</td>
-<td align="center">gg</td>
-</tr>
-<tr>
-<td align="center">ndd</td>
-<td align="center">nyy</td>
-<td align="center">nG</td>
-</tr>
-<tr>
-<td align="center">d0,d$</td>
-<td align="center">y0,y$</td>
-<td align="center">x,X</td>
-</tr>
-<tr>
-<td align="center">dG,d1G</td>
-<td align="center">yG,y1G</td>
-<td align="center">p,P</td>
-</tr>
-</tbody></table>
-<p>. 重复前一个动作</p>
-<h3 id="1-2-撤销与复原"><a href="#1-2-撤销与复原" class="headerlink" title="1.2 撤销与复原"></a>1.2 撤销与复原</h3><p>u<br>Ctrl +r</p>
-<h3 id="1-3-替换"><a href="#1-3-替换" class="headerlink" title="1.3 替换"></a>1.3 替换</h3><p>:n1,n2s&#x2F;word1&#x2F;word2&#x2F;g<br>:%s&#x2F;word1&#x2F;word2&#x2F;g<br>:%s&#x2F;word1&#x2F;word2&#x2F;gc</p>
-<h3 id="1-4-输入"><a href="#1-4-输入" class="headerlink" title="1.4 输入"></a>1.4 输入</h3><p>i,I 非空白符首部输入<br>a,A 行末输入<br>o,O<br>r,R 替换模式</p>
-<h2 id="2-移动"><a href="#2-移动" class="headerlink" title="2.移动"></a>2.移动</h2><h3 id="2-1-单行移动"><a href="#2-1-单行移动" class="headerlink" title="2.1 单行移动"></a>2.1 单行移动</h3><p>w 下个词的词首<br>e 下个词的词尾<br>b 上个词的词首<br>f 行内查询<br>F<br>nf<br>nF</p>
-<h3 id="2-2-多行移动"><a href="#2-2-多行移动" class="headerlink" title="2.2 多行移动"></a>2.2 多行移动</h3><p>Ctrl + f<br>Ctrl + b<br>Ctrl + d<br>Ctrl + u</p>
-<p>+ 非空白符的上一行<br>- 非空白符的下一行</p>
-<p>J 结合同一行</p>
-<h3 id="2-3-多文件移动"><a href="#2-3-多文件移动" class="headerlink" title="2.3 多文件移动"></a>2.3 多文件移动</h3><p>:ls<br>:bn<br>vim -on file1 file2<br>vim -On file1 file2<br>Ctrl + w s	:sp file<br>ctrl + w v	:vsp file<br>Ctrl + w h&#x2F;j&#x2F;k&#x2F;l<br>Ctrl + w H&#x2F;J&#x2F;K&#x2F;L</p>
-<h2 id="3-VIM"><a href="#3-VIM" class="headerlink" title="3.VIM"></a>3.VIM</h2><h3 id="3-1-文件操作"><a href="#3-1-文件操作" class="headerlink" title="3.1 文件操作"></a>3.1 文件操作</h3><p>ZZ<br>ZQ<br>:w filename<br>:n1,n2 w filename<br>! command</p>
-<h3 id="3-2-扩展插件"><a href="#3-2-扩展插件" class="headerlink" title="3.2 扩展插件"></a>3.2 扩展插件</h3><p><a href="https://github.com/junegunn/vim-plug">vim-plug</a></p>
-]]></content>
-      <categories>
-        <category>Others</category>
-        <category>Vim</category>
-      </categories>
-      <tags>
-        <tag>Vim</tag>
       </tags>
   </entry>
   <entry>
@@ -290,18 +236,90 @@
       </tags>
   </entry>
   <entry>
+    <title>Vim常用操作</title>
+    <url>/2022/08/30/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8VIM/</url>
+    <content><![CDATA[<img src="https://pic.imgdb.cn/item/630dac0116f2c2beb1daf463.png" alt="How to use VIM">
+
+<h2 id="1-文本编辑"><a href="#1-文本编辑" class="headerlink" title="1.文本编辑"></a>1.文本编辑</h2><h3 id="1-1-复制、剪切、黏贴、删除"><a href="#1-1-复制、剪切、黏贴、删除" class="headerlink" title="1.1 复制、剪切、黏贴、删除"></a>1.1 复制、剪切、黏贴、删除</h3><table>
+<thead>
+<tr>
+<th align="center">d</th>
+<th align="center">y</th>
+<th align="center">xpg</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">dd</td>
+<td align="center">yy</td>
+<td align="center">gg</td>
+</tr>
+<tr>
+<td align="center">ndd</td>
+<td align="center">nyy</td>
+<td align="center">nG</td>
+</tr>
+<tr>
+<td align="center">d0,d$</td>
+<td align="center">y0,y$</td>
+<td align="center">x,X</td>
+</tr>
+<tr>
+<td align="center">dG,d1G</td>
+<td align="center">yG,y1G</td>
+<td align="center">p,P</td>
+</tr>
+</tbody></table>
+<p>. 重复前一个动作</p>
+<h3 id="1-2-撤销与复原"><a href="#1-2-撤销与复原" class="headerlink" title="1.2 撤销与复原"></a>1.2 撤销与复原</h3><p>u<br>Ctrl +r</p>
+<h3 id="1-3-替换"><a href="#1-3-替换" class="headerlink" title="1.3 替换"></a>1.3 替换</h3><p>:n1,n2s&#x2F;word1&#x2F;word2&#x2F;g<br>:%s&#x2F;word1&#x2F;word2&#x2F;g<br>:%s&#x2F;word1&#x2F;word2&#x2F;gc</p>
+<h3 id="1-4-输入"><a href="#1-4-输入" class="headerlink" title="1.4 输入"></a>1.4 输入</h3><p>i,I 非空白符首部输入<br>a,A 行末输入<br>o,O<br>r,R 替换模式</p>
+<h2 id="2-移动"><a href="#2-移动" class="headerlink" title="2.移动"></a>2.移动</h2><h3 id="2-1-单行移动"><a href="#2-1-单行移动" class="headerlink" title="2.1 单行移动"></a>2.1 单行移动</h3><p>w 下个词的词首<br>e 下个词的词尾<br>b 上个词的词首<br>f 行内查询<br>F<br>nf<br>nF</p>
+<h3 id="2-2-多行移动"><a href="#2-2-多行移动" class="headerlink" title="2.2 多行移动"></a>2.2 多行移动</h3><p>Ctrl + f<br>Ctrl + b<br>Ctrl + d<br>Ctrl + u</p>
+<p>+ 非空白符的上一行<br>- 非空白符的下一行</p>
+<p>J 结合同一行</p>
+<h3 id="2-3-多文件移动"><a href="#2-3-多文件移动" class="headerlink" title="2.3 多文件移动"></a>2.3 多文件移动</h3><p>:ls<br>:bn<br>vim -on file1 file2<br>vim -On file1 file2<br>Ctrl + w s	:sp file<br>ctrl + w v	:vsp file<br>Ctrl + w h&#x2F;j&#x2F;k&#x2F;l<br>Ctrl + w H&#x2F;J&#x2F;K&#x2F;L</p>
+<h2 id="3-VIM"><a href="#3-VIM" class="headerlink" title="3.VIM"></a>3.VIM</h2><h3 id="3-1-文件操作"><a href="#3-1-文件操作" class="headerlink" title="3.1 文件操作"></a>3.1 文件操作</h3><p>ZZ<br>ZQ<br>:w filename<br>:n1,n2 w filename<br>! command</p>
+<h3 id="3-2-扩展插件"><a href="#3-2-扩展插件" class="headerlink" title="3.2 扩展插件"></a>3.2 扩展插件</h3><p><a href="https://github.com/junegunn/vim-plug">vim-plug</a></p>
+]]></content>
+      <categories>
+        <category>Others</category>
+        <category>Vim</category>
+      </categories>
+      <tags>
+        <tag>Vim</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我写的第一个C++类</title>
     <url>/2022/09/05/%E6%88%91%E5%86%99%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AAC-%E7%B1%BB/</url>
     <content><![CDATA[<h2 id="今天开始学类！"><a href="#今天开始学类！" class="headerlink" title="今天开始学类！"></a>今天开始学类！</h2><img src="https://pic.imgdb.cn/item/6315d21616f2c2beb183bbcd.png" width="800" height="1000" >
 
 <p><img src="https://pic.imgdb.cn/item/6315d20816f2c2beb183ac7f.png" alt="my\_first\_class\_page"></p>
-<p>我写的第一个C++类</p>
+<p><em><strong>我写的第一个C++类</strong></em></p>
 ]]></content>
       <categories>
-        <category>C++</category>
+        <category>Others</category>
+        <category>Vim</category>
       </categories>
       <tags>
-        <tag>Coding,C++</tag>
+        <tag>Coding</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有意思的站点集合</title>
+    <url>/2022/08/29/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AB%99%E7%82%B9%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<h3 id="答疑解惑"><a href="#答疑解惑" class="headerlink" title="答疑解惑"></a>答疑解惑</h3><p><a href="https://blog.csdn.net/mocas_wang/article/details/104009594">如何给wps安装字体</a></p>
+<h3 id="高效率办公"><a href="#高效率办公" class="headerlink" title="高效率办公"></a>高效率办公</h3><p><a href="https://github.com/Heroic-Studio/Google-Mirrors">Google镜像列表</a></p>
+<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p><a href="https://hub.nuaa.cf/">Github镜像</a><br><a href="https://goproxy.cn/">go代理</a><br><a href="https://www.jianshu.com/p/c35091dcba84">图床</a></p>
+<h3 id="有意思的博客"><a href="#有意思的博客" class="headerlink" title="有意思的博客"></a>有意思的博客</h3><p><a href="https://www.ddosi.org/">雨苁ℒ</a></p>
+<h3 id="知识库"><a href="#知识库" class="headerlink" title="知识库"></a>知识库</h3><p><a href="https://www.icourse163.org/">MOOC</a><br><a href="https://github.com/PeiQi0/PeiQi-WiKi-Book">PeiQi</a></p>
+]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+      <tags>
+        <tag>Internet</tag>
       </tags>
   </entry>
   <entry>
@@ -326,22 +344,6 @@
       <tags>
         <tag>Linux</tag>
         <tag>建站</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有意思的站点集合</title>
-    <url>/2022/08/29/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AB%99%E7%82%B9%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<h3 id="答疑解惑"><a href="#答疑解惑" class="headerlink" title="答疑解惑"></a>答疑解惑</h3><p><a href="https://blog.csdn.net/mocas_wang/article/details/104009594">如何给wps安装字体</a></p>
-<h3 id="高效率办公"><a href="#高效率办公" class="headerlink" title="高效率办公"></a>高效率办公</h3><p><a href="https://github.com/Heroic-Studio/Google-Mirrors">Google镜像列表</a></p>
-<h2 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h2><p><a href="https://hub.nuaa.cf/">Github镜像</a><br><a href="https://goproxy.cn/">go代理</a><br><a href="https://www.jianshu.com/p/c35091dcba84">图床</a></p>
-<h3 id="有意思的博客"><a href="#有意思的博客" class="headerlink" title="有意思的博客"></a>有意思的博客</h3><p><a href="https://www.ddosi.org/">雨苁ℒ</a></p>
-<h3 id="知识库"><a href="#知识库" class="headerlink" title="知识库"></a>知识库</h3><p><a href="https://www.icourse163.org/">MOOC</a><br><a href="https://github.com/PeiQi0/PeiQi-WiKi-Book">PeiQi</a></p>
-]]></content>
-      <categories>
-        <category>Others</category>
-      </categories>
-      <tags>
-        <tag>Internet</tag>
       </tags>
   </entry>
 </search>
